@@ -38,4 +38,5 @@ target_include_directories(plugin_api INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_compile_features(plugin_api INTERFACE cxx_std_14)
 
+add_subdirectory(plugins/hello)
 add_subdirectory(host)
